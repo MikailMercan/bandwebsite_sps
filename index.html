@@ -21,16 +21,27 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<a style="border-bottom-color: transparent;" href="#Snake">
-							<img style="vertical-align: middle;" src="images/Logo_NoBG_White.png" alt="SevenPageSkriptureLogo" width="80">
+							<a style="border-bottom-color: transparent;" href="#Snake">									
+							<img id="bandlogoincircle" style="vertical-align: middle;" src="images/Logo_NoBG_White.png" alt="SevenPageSkriptureLogo">
 							</a>
+							
 						</div>
 						<div class="content">
 							<div class="inner">
-								<img src="images/SevenPageSkripture_Stylized_White.png" alt="SevenPageSkriptureWord" width="500">
-								<p>Belgian metalcore band that does about anything for money, <a href="#Contact">Book us today!</a> <br>
+								<img id="bandlogoword" src="images/SevenPageSkripture_Stylized_White.png" alt="SevenPageSkriptureWord">
+								<p>Belgian metalcore band, <a href="#Contact">Book us today!</a> <br>
 									New EP "in love with a ghost" out now </p>
 							</div>
+							<script>
+								if(window.innerWidth < 735){
+									
+									document.getElementById("bandlogoincircle").width = 60
+									document.getElementById("bandlogoword").width = 280
+								} else {
+									document.getElementById("bandlogoincircle").width = 80
+									document.getElementById("bandlogoword").width = 500
+								}
+							</script>
 						</div>
 						<nav>
 							<ul>
@@ -58,7 +69,7 @@
 						<!-- Intro -->
 							<article id="About">
 								<h2 class="major">About</h2>
-								<p>Seven Page Skripture is a metalcore band stationed in Leuven, Belgium. The project itself started in the beginning of 2021. With a full line-up now being present we officially accept gigs in the whole region of Belgium aswell as beyond. If these couple sentences have already convinced you, then feel free to <a href="#Contact"> book us now!</a>  </p>
+								<p>Seven Page Skripture is a metalcore band stationed in Leuven, Belgium. The project itself started in the beginning of 2021. With a full line-up now being present we officially accept gigs in the whole region of Belgium as well as beyond. If these couple sentences have already convinced you, then feel free to <a href="#Contact"> book us now!</a>  </p>
 								<h2 class="major">Who we are</h2>
 								<span class="image main"><img src="images/bandpic2.jpeg" alt="" /></span>
 								<p><u><b>From left to right: </b></u> <br> <b>Rhythm guitar -</b> Brent <br> <b>Bass -</b> Valentina <br> <b>Vocals-</b> Velin <br> <b>Drums-</b> Sam <br> <b>Lead guitar-</b> Mikail </p>
@@ -116,8 +127,7 @@
 									<tbody>
 										<tr>
 											<td>07/10/2022</td>
-											<td>Students for Ukraine</a></td>
-											<!--<td><a href="https://www.google.com/search?q=todo+hier+event&oq=todo+hier+event&aqs=chrome..69i57j33i160l3.1675j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Students for Ukraine</a></td>-->
+											<td><a href="https://m.facebook.com/events/462744325811585" target="_blank">Students for Ukraine</a></td>
 											<td>Hal 5 Leuven</td>
 										</tr>
 									</tbody>
